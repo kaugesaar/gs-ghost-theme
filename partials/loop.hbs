@@ -1,0 +1,20 @@
+{{! USER CONFIGURATION OF THIS PAGE IS NOT REQUIRED }}
+{{#foreach posts}}
+<div class="row">
+	<div class="col-sm-12">
+		<article class="post-box {{post_class}}">
+			<header class="post-box-header">
+				<a href="{{url}}"><h2>{{{title}}}</h2></a>
+			</header>
+			<div class="post-box-body">
+				<p>{{excerpt characters="130"}}&hellip;</p>
+				<span>
+					<small>
+						Posted {{#author}}<span class="postauthor">by <a href="{{url}}">{{name}}</a></span>{{/author}} on <i class="fa fa-clock-o"></i> <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM Do, YYYY"}}</time>.
+					</small>
+				</span>
+			</div>
+		</article>
+	</div>
+</div>
+{{/foreach}}

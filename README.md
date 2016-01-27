@@ -1,0 +1,1 @@
+# Getscript.io ghost theme

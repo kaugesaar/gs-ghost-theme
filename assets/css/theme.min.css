@@ -1,0 +1,48 @@
+pre.theme-boxuk {
+  background-color: #ffffff;
+  padding: 2em;
+  font-size:.7em;
+  color: #414f5c;
+}
+pre.theme-boxuk code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+pre.theme-boxuk .pln {
+  color: #414f5c;
+}
+pre.theme-boxuk .str {
+  color: #15b8ae;
+}
+pre.theme-boxuk .kwd {
+  color: #017c9d;
+}
+pre.theme-boxuk .com {
+  color: #b8b6b1;
+}
+pre.theme-boxuk .typ {
+  color: #019d76;
+}
+pre.theme-boxuk .lit {
+  color: #15b8ae;
+}
+pre.theme-boxuk .pun,
+pre.theme-boxuk .opn,
+pre.theme-boxuk .clo {
+  color: #414f5c;
+}
+pre.theme-boxuk .tag {
+  color: #017c9d;
+}
+pre.theme-boxuk .atn {
+  color: #019d76;
+}
+pre.theme-boxuk .atv {
+  color: #15b8ae;
+}
+pre.theme-boxuk .dec,
+pre.theme-boxuk .var {
+  color: #15b8ae;
+}
+pre.theme-boxuk .fun {
+  color: #017c9d;
+}

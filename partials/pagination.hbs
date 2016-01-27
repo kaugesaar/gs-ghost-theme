@@ -1,0 +1,16 @@
+{{! USER CONFIGURATION OF THIS PAGE IS NOT REQUIRED }}
+<nav class="nav-pager text-center">
+	{{#if prev}}
+		<a href="{{page_url prev}}" class="btn btn-default newer">
+			<i class="fa fa-angle-double-left"></i>
+			<span>Newer Posts</span> 
+		</a>
+	{{/if}}
+	<span class="page-counter"><small>Page {{page}} of {{pages}}</small></span>
+	{{#if next}}
+		<a href="{{page_url next}}" class="btn btn-default older">
+			<span>Older Posts</span>
+			<i class="fa fa-angle-double-right"></i> 
+		</a>
+	{{/if}}
+</nav>

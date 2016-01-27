@@ -1,0 +1,19 @@
+{{! USER CONFIGURATION OF THIS PAGE IS NOT REQUIRED }}
+<div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="/">getScript</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar">
+	  <ul class="nav navbar-nav navbar-right">
+		{{#foreach navigation}}
+			<li class="{{#if current}} active{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+		{{/foreach}}
+	  </ul>
+	</div>
+</div>
